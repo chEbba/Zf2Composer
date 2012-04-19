@@ -1,0 +1,32 @@
+{
+    "repositories": [
+        {
+            "type":    "pear",
+            "url":     "http://packages.zendframework.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2",
+        "pear-zf2/Zend_MVC":          "2.0.0beta3",
+        "pear-zf2/Zend_Di":           "2.0.0beta3",
+        "pear-zf2/Zend_Code":         "2.0.0beta3",
+        "pear-zf2/Zend_Config":       "2.0.0beta3",
+        "pear-zf2/Zend_EventManager": "2.0.0beta3",
+        "pear-zf2/Zend_Filter":       "2.0.0beta3",
+        "pear-zf2/Zend_Http":         "2.0.0beta3",
+        "pear-zf2/Zend_Loader":       "2.0.0beta3",
+        "pear-zf2/Zend_Module":       "2.0.0beta3",
+        "pear-zf2/Zend_Registry":     "2.0.0beta3",
+        "pear-zf2/Zend_Stdlib":       "2.0.0beta3",
+        "pear-zf2/Zend_Uri":          "2.0.0beta3",
+        "pear-zf2/Zend_Validator":    "2.0.0beta3",
+        "pear-zf2/Zend_View":         "2.0.0beta3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Application": "module/Application/Src"
+        }
+    }
+}
