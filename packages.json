@@ -4,7 +4,7 @@
         "description":"Zend_Mvc",
         "type":"library",
         "versions":{
-            "2.0.0beta3":{
+            "2.0.0-beta3":{
                 "name":"pear-zf2\/zend_mvc",
                 "description":"Zend_Mvc",
                 "keywords":["zend","mvc"],
