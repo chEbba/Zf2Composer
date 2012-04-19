@@ -1,0 +1,33 @@
+{
+    "pear-zf2\/zend_mvc":{
+        "name":"pear-zf2\/zend_mvc",
+        "description":"Zend_Mvc",
+        "type":"library",
+        "versions":{
+            "2.0.0beta3":{
+                "name":"pear-zf2\/zend_mvc",
+                "description":"Zend_Mvc",
+                "keywords":["zend","mvc"],
+                "homepage":"http:\/\/zendframework.com\/",
+                "version":"2.0.0beta3",
+                "license":["BSD"],
+                "dist":{
+                    "type":"pear",
+                    "url":"http://packages.zendframework.com/get/Zend_Mvc-2.0.0beta3.tgz"
+                },
+                "require":{
+                    "php":">=5.3.2",
+                    "pear-zf2\/zend_code": "2.0.0beta3",
+                    "pear-zf2\/zend_config": "2.0.0beta3",
+                    "pear-zf2\/zend_di": "2.0.0beta3",
+                    "pear-zf2\/eventmanager": "2.0.0beta3",
+                    "pear-zf2\/zend_http": "2.0.0beta3",
+                    "pear-zf2\/zend_loader": "2.0.0beta3",
+                    "pear-zf2\/zend_stdlib": "2.0.0beta3",
+                    "pear-zf2\/zend_uri": "2.0.0beta3",
+                    "pear-zf2\/zend_view": "2.0.0beta3"
+                }
+            }
+        }
+    }
+}
