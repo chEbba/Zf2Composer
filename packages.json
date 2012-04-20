@@ -398,7 +398,7 @@
                 "license":["BSD"],
                 "dist":{
                     "type":"zip",
-                    "url":"https://github.com/zendframework/ZendDeveloperTools/zipball/91c4bc1d45ab871555225b57fd3c77e22ab765e6"
+                    "url":"https://github.com/stefankleff/ZendDeveloperTools/zipball/2dd87cbfb11b4e9244fa724e70529867a8074633"
                 },
                 "require":{
                     "php":">=5.3.2",
