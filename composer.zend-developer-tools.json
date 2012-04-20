@@ -1,0 +1,29 @@
+{
+    "name": "zendframework/zend-developer-tools",
+    "description": "ZF2 module for developer and debug tools.",
+    "keywords": ["zend", "zf", "module", "developer", "tools"],
+    "homepage": "https://github.com/zendframework/ZendDeveloperTools",
+    "type": "library",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Zend Technologies USA",
+            "email": "info@zendframework.com",
+            "homepage": "http://zendframework.com"
+        }
+    ],
+
+    "version": "1.0.0-pr1",
+
+    "require":{
+        "php":">=5.3.2",
+        "pear-zf2\/zend_mvc": "2.0.0beta3",
+        "pear-zf2\/zend_eventmanager": "2.0.0beta3",
+        "pear-zf2\/zend_http": "2.0.0beta3",
+        "pear-zf2\/zend_stdlib": "2.0.0beta3",
+        "pear-zf2\/zend_view": "2.0.0beta3"
+    },
+    "autoload":{
+        "classmap":[""]
+    }
+}

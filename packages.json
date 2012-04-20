@@ -383,5 +383,35 @@
                 }
             }
         }
+    },
+    "zendframework/zend-developer-tools":{
+        "name":"zf2/zend-developer-tools",
+        "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
+        "type": "library",
+        "versions":{
+            "1.0.0-pr1":{
+                "name":"zf2/zend-developer-tools",
+                "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
+                "keywords": ["zend", "zf", "module", "developer", "tools"],
+                "homepage": "http://github.com/chEbba/LogStock",
+                "version":"1.0.0-pr1",
+                "license":["BSD"],
+                "dist":{
+                    "type":"zip",
+                    "url":"https://github.com/zendframework/ZendDeveloperTools/zipball/91c4bc1d45ab871555225b57fd3c77e22ab765e6"
+                },
+                "require":{
+                    "php":">=5.3.2",
+                    "pear-zf2\/zend_mvc": "2.0.0beta3",
+                    "pear-zf2\/zend_eventmanager": "2.0.0beta3",
+                    "pear-zf2\/zend_http": "2.0.0beta3",
+                    "pear-zf2\/zend_stdlib": "2.0.0beta3",
+                    "pear-zf2\/zend_view": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":[""]
+                }
+            }
+        }
     }
 }
