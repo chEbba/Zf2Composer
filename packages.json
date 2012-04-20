@@ -3,6 +3,9 @@
         "name":"pear-zf2\/zend_mvc",
         "description":"Zend_Mvc",
         "type":"library",
+        "autoload":{
+            "classmap":[""]
+        },
         "versions":{
             "2.0.0-beta3":{
                 "name":"pear-zf2\/zend_mvc",
