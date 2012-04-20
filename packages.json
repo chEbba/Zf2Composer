@@ -385,12 +385,12 @@
         }
     },
     "zendframework/zend-developer-tools":{
-        "name":"zf2/zend-developer-tools",
+        "name":"zendframework/zend-developer-tools",
         "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
         "type": "library",
         "versions":{
             "1.0.0-alpha1":{
-                "name":"zf2/zend-developer-tools",
+                "name":"zendframework/zend-developer-tools",
                 "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
                 "keywords": ["zend", "zf", "module", "developer", "tools"],
                 "homepage": "http://github.com/chEbba/LogStock",
