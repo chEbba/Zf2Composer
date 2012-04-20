@@ -3,9 +3,6 @@
         "name":"pear-zf2\/zend_mvc",
         "description":"Zend_Mvc",
         "type":"library",
-        "autoload":{
-            "classmap":[""]
-        },
         "versions":{
             "2.0.0-beta3":{
                 "name":"pear-zf2\/zend_mvc",
@@ -29,6 +26,9 @@
                     "pear-zf2\/zend_stdlib": "2.0.0beta3",
                     "pear-zf2\/zend_uri": "2.0.0beta3",
                     "pear-zf2\/zend_view": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -51,6 +51,9 @@
                 },
                 "require":{
                     "php":">=5.3.2"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -75,6 +78,9 @@
                     "php":">=5.3.2",
                     "pear-zf2\/zend_filter": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -98,6 +104,9 @@
                 "require":{
                     "php":">=5.3.2",
                     "pear-zf2\/zend_code": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -121,6 +130,9 @@
                 "require":{
                     "php":">=5.3.2",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -145,6 +157,9 @@
                     "php":">=5.3.2",
                     "pear-zf2\/zend_loader": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -169,6 +184,9 @@
                     "php":">=5.3.2",
                     "pear-zf2\/zend_uri": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -192,6 +210,9 @@
                 "require":{
                     "php":">=5.3.2",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -219,6 +240,9 @@
                     "pear-zf2\/zend_eventmanager": "2.0.0beta3",
                     "pear-zf2\/zend_loader": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -246,6 +270,9 @@
                     "pear-zf2\/zend_eventmanager": "2.0.0beta3",
                     "pear-zf2\/zend_loader": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -269,6 +296,9 @@
                 "require":{
                     "php":">=5.3.2",
                     "pear-zf2\/zend_validator": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -293,6 +323,9 @@
                     "php":">=5.3.2",
                     "pear-zf2\/zend_filter": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
@@ -318,6 +351,9 @@
                     "pear-zf2\/zend_eventmanager": "2.0.0beta3",
                     "pear-zf2\/zend_loader": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                },
+                "autoload":{
+                    "classmap":["php/"]
                 }
             }
         }
