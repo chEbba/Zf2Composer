@@ -13,7 +13,7 @@
         "pear-zf2/Zend_Module":       "2.0.0beta3",
         "pear-zf2/Zend_View":         "2.0.0beta3",
 
-        "zendframework/zend-developer-tools": "1.0.0-pr1"
+        "zendframework/zend-developer-tools": "1.0.0-alpha1"
     },
 
     "autoload": {
