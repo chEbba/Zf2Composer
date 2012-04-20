@@ -30,48 +30,24 @@
             }
         }
     },
-    "pear-zf2\/zend_di":{
-        "name":"pear-zf2\/zend_di",
-        "description":"Zend_Di",
+    "pear-zf2\/zend_code":{
+        "name":"pear-zf2\/zend_code",
+        "description":"Zend_Code",
         "type":"library",
         "versions":{
             "2.0.0-beta3":{
-                "name":"pear-zf2\/zend_di",
-                "description":"Zend_Di",
-                "keywords":["zend","di","dependency","injection"],
+                "name":"pear-zf2\/zend_code",
+                "description":"Zend_Code",
+                "keywords":["zend","code"],
                 "homepage":"http:\/\/zendframework.com\/",
                 "version":"2.0.0beta3",
                 "license":["BSD"],
                 "dist":{
                     "type":"pear",
-                    "url":"http://packages.zendframework.com/get/Zend_Di-2.0.0beta3.tgz"
+                    "url":"http://packages.zendframework.com/get/Zend_Code-2.0.0beta3.tgz"
                 },
                 "require":{
-                    "php":">=5.3.2",
-                    "pear-zf2\/zend_code": "2.0.0beta3"
-                }
-            }
-        }
-    },
-    "pear-zf2\/zend_di":{
-        "name":"pear-zf2\/zend_di",
-        "description":"Zend_Di",
-        "type":"library",
-        "versions":{
-            "2.0.0-beta3":{
-                "name":"pear-zf2\/zend_di",
-                "description":"Zend_Di",
-                "keywords":["zend","di","dependency","injection"],
-                "homepage":"http:\/\/zendframework.com\/",
-                "version":"2.0.0beta3",
-                "license":["BSD"],
-                "dist":{
-                    "type":"pear",
-                    "url":"http://packages.zendframework.com/get/Zend_Di-2.0.0beta3.tgz"
-                },
-                "require":{
-                    "php":">=5.3.2",
-                    "pear-zf2\/zend_code": "2.0.0beta3"
+                    "php":">=5.3.2"
                 }
             }
         }
@@ -96,6 +72,29 @@
                     "php":">=5.3.2",
                     "pear-zf2\/zend_filter": "2.0.0beta3",
                     "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                }
+            }
+        }
+    },
+    "pear-zf2\/zend_di":{
+        "name":"pear-zf2\/zend_di",
+        "description":"Zend_Di",
+        "type":"library",
+        "versions":{
+            "2.0.0-beta3":{
+                "name":"pear-zf2\/zend_di",
+                "description":"Zend_Di",
+                "keywords":["zend","di","dependency","injection"],
+                "homepage":"http:\/\/zendframework.com\/",
+                "version":"2.0.0beta3",
+                "license":["BSD"],
+                "dist":{
+                    "type":"pear",
+                    "url":"http://packages.zendframework.com/get/Zend_Di-2.0.0beta3.tgz"
+                },
+                "require":{
+                    "php":">=5.3.2",
+                    "pear-zf2\/zend_code": "2.0.0beta3"
                 }
             }
         }
@@ -171,6 +170,29 @@
             }
         }
     },
+    "pear-zf2\/zend_loader":{
+        "name":"pear-zf2\/zend_loader",
+        "description":"Zend_Loader",
+        "type":"library",
+        "versions":{
+            "2.0.0-beta3":{
+                "name":"pear-zf2\/zend_loader",
+                "description":"Zend_Loader",
+                "keywords":["zend","loader"],
+                "homepage":"http:\/\/zendframework.com\/",
+                "version":"2.0.0beta3",
+                "license":["BSD"],
+                "dist":{
+                    "type":"pear",
+                    "url":"http://packages.zendframework.com/get/Zend_Loader-2.0.0beta3.tgz"
+                },
+                "require":{
+                    "php":">=5.3.2",
+                    "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                }
+            }
+        }
+    },
     "pear-zf2\/zend_module":{
         "name":"pear-zf2\/zend_module",
         "description":"Zend_Module",
@@ -186,6 +208,33 @@
                 "dist":{
                     "type":"pear",
                     "url":"http://packages.zendframework.com/get/Zend_Module-2.0.0beta3.tgz"
+                },
+                "require":{
+                    "php":">=5.3.2",
+                    "pear-zf2\/zend_config": "2.0.0beta3",
+                    "pear-zf2\/zend_di": "2.0.0beta3",
+                    "pear-zf2\/zend_eventmanager": "2.0.0beta3",
+                    "pear-zf2\/zend_loader": "2.0.0beta3",
+                    "pear-zf2\/zend_stdlib": "2.0.0beta3"
+                }
+            }
+        }
+    },
+    "pear-zf2\/zend_stdlib":{
+        "name":"pear-zf2\/zend_stdlib",
+        "description":"Zend_Stdlib",
+        "type":"library",
+        "versions":{
+            "2.0.0-beta3":{
+                "name":"pear-zf2\/zend_stdlib",
+                "description":"Zend_Stdlib",
+                "keywords":["zend","stdlib"],
+                "homepage":"http:\/\/zendframework.com\/",
+                "version":"2.0.0beta3",
+                "license":["BSD"],
+                "dist":{
+                    "type":"pear",
+                    "url":"http://packages.zendframework.com/get/Zend_Stdlib-2.0.0beta3.tgz"
                 },
                 "require":{
                     "php":">=5.3.2",
