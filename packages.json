@@ -4,7 +4,7 @@
         "description":"Zend_Mvc",
         "type":"library",
         "autoload":{
-            "classmap":[""]
+            "classmap":["php/"]
         },
         "versions":{
             "2.0.0-beta3":{
