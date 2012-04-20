@@ -2,6 +2,7 @@
 return array(
     'modules' => array(
         'Application',
+        'ZendDeveloperTools'
     ),
     'module_listener_options' => array( 
         'config_cache_enabled' => false,
@@ -9,6 +10,7 @@ return array(
         'module_paths' => array(
             './module',
             './vendor',
+            'ZendDeveloperTools' => __DIR__ . '/../vendor/zendframework'
         ),
     ),
 );
